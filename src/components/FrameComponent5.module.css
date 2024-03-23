@@ -1,0 +1,178 @@
+.skipIcon {
+  height: 32.1px;
+  width: 1639.9px;
+  position: absolute;
+  margin: 0 !important;
+  top: 191.2px;
+  right: -1285px;
+  z-index: 1;
+}
+.icon,
+.image7Icon {
+  position: relative;
+  object-fit: cover;
+}
+.icon {
+  align-self: stretch;
+  width: 274.4px;
+  border-radius: var(--br-10xs);
+  max-height: 100%;
+  display: none;
+  min-height: 415px;
+}
+.image7Icon {
+  height: 414px;
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+  z-index: 2;
+}
+.parent {
+  flex: 1;
+  border-radius: var(--br-10xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0.40000000000009095px 0 0.1999999999998181px 2.8000000000000114px;
+  background-image: url(/public/9781982185824-2@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.h3,
+.skipParent {
+  position: relative;
+}
+.skipParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.h3 {
+  font-size: inherit;
+  line-height: 32.04px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.h3,
+.p,
+.p1 {
+  margin: 0;
+}
+.div {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--body-text-size);
+  line-height: 24.03px;
+  color: var(--body-text);
+  z-index: 1;
+  margin-top: -2.41px;
+}
+.group {
+  width: 267px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div1 {
+  position: relative;
+  line-height: 26.04px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 88px;
+}
+.columnIcon {
+  width: 24px;
+  height: 22px;
+  position: relative;
+}
+.columnWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 4.699999999999818px 0 0;
+}
+.container,
+.frameGroup {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.container {
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--h4-size);
+}
+.frameGroup {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 5.099999999999909px;
+  gap: 0.8850000000002183px;
+}
+.buttonAddToCartChild {
+  height: 48.1px;
+  width: 274.4px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  background-color: var(--purple);
+  display: none;
+}
+.div2 {
+  position: relative;
+  font-size: var(--body-text-size);
+  line-height: 24.03px;
+  font-weight: 500;
+  font-family: var(--body-text);
+  color: var(--white);
+  text-align: left;
+  white-space: nowrap;
+  z-index: 1;
+}
+.buttonAddToCart,
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.buttonAddToCart {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) 60.80000000000001px 11.099999999999907px;
+  background-color: var(--purple);
+  border-radius: var(--br-11xs);
+  flex-direction: row;
+  white-space: nowrap;
+}
+.buttonAddToCart:hover {
+  background-color: var(--color-darkslateblue-100);
+}
+.frameParent {
+  flex-direction: column;
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--h41-size);
+  color: var(--black);
+  font-family: var(--body-text);
+}
+@media screen and (max-width: 450px) {
+  .h3 {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .div1 {
+    font-size: var(--body-text-size);
+    line-height: 21px;
+  }
+  .buttonAddToCart {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

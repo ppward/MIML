@@ -1,0 +1,63 @@
+.akarIconscirclePlus,
+.antDesignheartOutlined {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.antDesignheartOutlined {
+  width: 38.4px;
+  height: 27.6px;
+}
+.antDesignheartOutlined1,
+.antDesignheartOutlined2,
+.antDesignheartOutlined3 {
+  width: 32px;
+  height: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.antDesignheartOutlined2,
+.antDesignheartOutlined3 {
+  width: 38.4px;
+  height: 27.6px;
+}
+.antDesignheartOutlined3 {
+  width: 32px;
+  height: 32px;
+}
+.mainChild {
+  width: 274.4px;
+  height: 48.1px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  background-color: var(--purple);
+  display: none;
+}
+.antDesignheartOutlined4,
+.main {
+  position: relative;
+  overflow: hidden;
+}
+.antDesignheartOutlined4 {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  display: none;
+}
+.main {
+  width: 100%;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0.40000000000009095px;
+  box-sizing: border-box;
+  gap: var(--gap-7xl);
+  letter-spacing: normal;
+}

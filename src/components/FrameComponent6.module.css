@@ -1,0 +1,54 @@
+.bookOpenIcon,
+.h3 {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.bookOpenIcon {
+  height: 48.1px;
+  width: 48.1px;
+  overflow: hidden;
+}
+.h3 {
+  margin: 0;
+  align-self: stretch;
+  font-size: inherit;
+  line-height: 32.04px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.wrapper {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+}
+.bookOpenParent,
+.frameWrapper,
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.bookOpenParent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.frameWrapper {
+  width: 197.1px;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 15.900000000000093px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--h41-size);
+  color: var(--color-black);
+  font-family: var(--body-text);
+}
+@media screen and (max-width: 450px) {
+  .h3 {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+}

@@ -1,0 +1,106 @@
+.image11Icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 2;
+}
+.h3 {
+  position: relative;
+  font-size: inherit;
+  line-height: 32.04px;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 42.19999999999999px;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.h3,
+.p,
+.p1 {
+  margin: 0;
+}
+.div,
+.div1 {
+  position: relative;
+  display: inline-block;
+}
+.div {
+  height: 48px;
+  font-size: var(--body-text-size);
+  line-height: 24.03px;
+  color: var(--body-text);
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  z-index: 1;
+  margin-top: -0.76px;
+}
+.div1 {
+  line-height: 26.04px;
+  font-weight: 600;
+  min-width: 88px;
+  z-index: 2;
+}
+.octahedralOrbitIcon {
+  width: 24px;
+  height: 22px;
+  position: relative;
+}
+.octahedralOrbitWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs-5) 0 0;
+}
+.sphereSymphony {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  gap: var(--gap-xl);
+  margin-top: -0.76px;
+  font-size: var(--h4-size);
+}
+.image11Parent,
+.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.parent {
+  align-self: stretch;
+}
+.image11Parent {
+  height: 544.5px;
+  width: 275px;
+  gap: 24.40000000000009px;
+  min-width: 275px;
+  text-align: left;
+  font-size: var(--h41-size);
+  color: var(--black);
+  font-family: var(--body-text);
+}
+@media screen and (max-width: 825px) {
+  .image11Parent {
+    flex: 1;
+  }
+}
+@media screen and (max-width: 450px) {
+  .h3 {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .div1 {
+    font-size: var(--body-text-size);
+    line-height: 21px;
+  }
+}

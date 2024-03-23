@@ -1,0 +1,219 @@
+.frameChild {
+  height: 80px;
+  width: 1488px;
+  position: absolute;
+  margin: 0 !important;
+  top: -28.1px;
+  right: -1246.8px;
+}
+.div {
+  flex: 1;
+  position: relative;
+  line-height: 25px;
+  z-index: 1;
+}
+.frameWrapper,
+.vectorParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vectorParent {
+  align-self: stretch;
+  flex-direction: row;
+  position: relative;
+}
+.frameWrapper {
+  width: 110.2px;
+  flex-direction: column;
+  padding: 1.1000000000000227px 0 0;
+  box-sizing: border-box;
+}
+.div1 {
+  align-self: stretch;
+  position: relative;
+  line-height: 25px;
+  z-index: 1;
+}
+.wrapper {
+  width: 72px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+}
+.div2 {
+  align-self: stretch;
+  position: relative;
+  line-height: 25px;
+  z-index: 1;
+}
+.container {
+  width: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-20xl) 0 0;
+  box-sizing: border-box;
+}
+.div3 {
+  width: 80px;
+  position: relative;
+  line-height: 25px;
+  display: inline-block;
+  z-index: 1;
+}
+.frame {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+  box-sizing: border-box;
+  min-width: 103px;
+}
+.div4 {
+  align-self: stretch;
+  position: relative;
+  line-height: 25px;
+  z-index: 1;
+}
+.frameDiv {
+  width: 107px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-8xl) 0 0;
+  box-sizing: border-box;
+}
+.div5 {
+  align-self: stretch;
+  position: relative;
+  line-height: 25px;
+  z-index: 1;
+}
+.wrapper1 {
+  width: 88px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+}
+.div6 {
+  align-self: stretch;
+  position: relative;
+  line-height: 25px;
+  z-index: 1;
+}
+.featureSplitter {
+  width: 83px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+}
+.div7 {
+  align-self: stretch;
+  position: relative;
+  line-height: 25px;
+  z-index: 1;
+}
+.wrapper2 {
+  width: 96px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-base) 0 0;
+  box-sizing: border-box;
+}
+.div8 {
+  align-self: stretch;
+  position: relative;
+  line-height: 25px;
+  z-index: 1;
+}
+.wrapper3 {
+  width: 85px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+}
+.div9 {
+  align-self: stretch;
+  position: relative;
+  line-height: 25px;
+  z-index: 1;
+}
+.frameParent,
+.timer,
+.wrapper4 {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.wrapper4 {
+  width: 80px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-12xs) 0 0;
+}
+.frameParent,
+.timer {
+  flex-direction: row;
+  max-width: 100%;
+}
+.frameParent {
+  width: 1154.8px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs) 0 0;
+  gap: var(--gap-mid);
+}
+.timer {
+  width: 1600.8px;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.videoPlayerChild {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.videoPlayer,
+.videoPlayerWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.videoPlayer {
+  flex: 1;
+  flex-direction: column;
+  gap: 26.600000000000023px;
+}
+.videoPlayerWrapper {
+  width: 1707.5px;
+  flex-direction: row;
+  padding: 0 var(--padding-2xl) 71.29999999999995px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--body-text-size);
+  color: var(--body-text);
+  font-family: var(--body-text);
+}

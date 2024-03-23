@@ -1,0 +1,117 @@
+.h3 {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: inherit;
+  line-height: 32.04px;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 84.5px;
+}
+.antDesignheartOutlinedIcon {
+  position: absolute;
+  top: 46.3px;
+  left: 272.3px;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+}
+.p,
+.p1 {
+  margin: 0;
+}
+.div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 24.03px;
+  display: inline-block;
+  width: 170.2px;
+  z-index: 1;
+}
+.antDesignheartOutlinedParent {
+  position: absolute;
+  top: 32.8px;
+  left: 0;
+  width: 304.3px;
+  height: 78.3px;
+  font-size: var(--body-text-size);
+  color: var(--body-text);
+}
+.parent {
+  align-self: stretch;
+  height: 111.1px;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.child,
+.div1,
+.parent {
+  position: relative;
+}
+.child {
+  height: 48.1px;
+  width: 274.4px;
+  border-radius: var(--br-11xs);
+  background-color: var(--purple);
+  display: none;
+}
+.div1 {
+  font-size: var(--h4-size);
+  line-height: 26.04px;
+  font-weight: 600;
+  font-family: var(--body-text);
+  color: var(--white);
+  text-align: left;
+  display: inline-block;
+  min-width: 97px;
+  z-index: 1;
+}
+.button,
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-xl) 11.099999999999907px
+    var(--padding-4xl);
+  background-color: var(--purple);
+  flex: 1;
+  border-radius: var(--br-11xs);
+  justify-content: center;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.button:hover {
+  background-color: var(--color-darkslateblue-100);
+}
+.wrapper {
+  width: 288.2px;
+  justify-content: flex-end;
+  padding: 0 6.900000000000546px 0 var(--padding-6xs);
+  box-sizing: border-box;
+}
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 0 155.0999999999999px;
+  gap: 27.90000000000009px;
+  text-align: left;
+  font-size: var(--h41-size);
+  color: var(--black);
+  font-family: var(--body-text);
+}
+@media screen and (max-width: 450px) {
+  .h3 {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+}

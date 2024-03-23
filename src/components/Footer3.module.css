@@ -1,0 +1,576 @@
+.footerChild {
+  align-self: stretch;
+  height: 464px;
+  position: relative;
+  background-color: var(--purple);
+  display: none;
+}
+.bWorld,
+.container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.bWorld {
+  line-height: 24.03px;
+  display: inline-block;
+  min-width: 61.5px;
+  z-index: 1;
+}
+.container {
+  border-radius: 50%;
+  background: linear-gradient(
+    180deg,
+    #937dc2,
+    #964fe7 35.21%,
+    #d9a9ec 77.92%,
+    #c689c6
+  );
+  border: 0 solid var(--white);
+  box-sizing: border-box;
+}
+.openMagazine1Icon {
+  position: absolute;
+  top: 1.9px;
+  left: 2px;
+  width: 6.1px;
+  height: 5.7px;
+  object-fit: cover;
+  z-index: 1;
+}
+.bookWorld {
+  position: absolute;
+  top: 8.6px;
+  left: 31.3px;
+  width: 10.1px;
+  height: 9.5px;
+  z-index: 2;
+}
+.combiner {
+  width: 61.5px;
+  height: 23.8px;
+  position: relative;
+}
+.antDesigninstagramFilledIcon,
+.raphaelfacebookIcon {
+  height: 33px;
+  width: 33px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 33px;
+  z-index: 3;
+}
+.counter,
+.timer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.timer {
+  flex: 1;
+  justify-content: flex-start;
+  gap: var(--gap-xs);
+}
+.counter {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 8.699999999999818px 0 0;
+}
+.dataTransformer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 35.700000000000045px;
+}
+.fa6BrandssquareTwitterIcon {
+  height: 33px;
+  width: 33px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.connectionManager {
+  width: 178.5px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 0 55.30000000000109px 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-9xs-5);
+}
+.categories,
+.mystery,
+.psychology,
+.romance,
+.selfHelp {
+  position: relative;
+  line-height: 24.03px;
+  display: inline-block;
+  z-index: 1;
+}
+.categories {
+  font-weight: 600;
+  min-width: 86.7px;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.mystery,
+.psychology,
+.romance,
+.selfHelp {
+  min-width: 88.7px;
+}
+.mystery,
+.romance,
+.selfHelp {
+  min-width: 71.6px;
+}
+.mystery {
+  min-width: 62.5px;
+}
+.calculator,
+.inputProcessor {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.inputProcessor {
+  gap: 14.366666666666712px;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  color: var(--color-gray-500);
+}
+.calculator {
+  gap: 18.200000000000045px;
+}
+.comics,
+.fantasy,
+.forKids,
+.games {
+  position: relative;
+  line-height: 24.03px;
+  display: inline-block;
+  z-index: 1;
+}
+.forKids {
+  font-weight: 600;
+  min-width: 61.5px;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.comics,
+.fantasy,
+.games {
+  min-width: 53.4px;
+}
+.comics,
+.fantasy {
+  min-width: 57.5px;
+}
+.fantasy {
+  min-width: 60.5px;
+}
+.forKidsParent,
+.gamesParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.gamesParent {
+  gap: 14.350000000000025px;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  color: var(--color-gray-500);
+}
+.forKidsParent {
+  padding: 0 25.200000000000728px 0 0;
+  gap: 18.200000000000045px;
+}
+.eBooks,
+.fiction,
+.historical,
+.horror {
+  position: relative;
+  line-height: 24.03px;
+  display: inline-block;
+  z-index: 1;
+}
+.eBooks {
+  font-weight: 600;
+  min-width: 66.6px;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.fiction,
+.historical,
+.horror {
+  min-width: 51.4px;
+}
+.historical,
+.horror {
+  min-width: 71.6px;
+}
+.horror {
+  min-width: 49.4px;
+}
+.eBooksParent,
+.fictionParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.fictionParent {
+  gap: 14.350000000000025px;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  color: var(--color-gray-500);
+}
+.eBooksParent {
+  gap: 18.200000000000045px;
+}
+.helpContacts,
+.phoneIcon {
+  position: relative;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.helpContacts {
+  line-height: 24.03px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 126px;
+  debug_commit: f6aba90;
+}
+.phoneIcon {
+  width: 20.2px;
+  height: 19.1px;
+  overflow: hidden;
+}
+.phoneWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1.900000000000091px 0 0;
+}
+.accumulator {
+  position: relative;
+  line-height: 24.03px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.frameGroup {
+  width: 187.6px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.clockIcon {
+  width: 20.2px;
+  height: 19.1px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  z-index: 1;
+}
+.clockWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1.900000000000091px 0 0;
+}
+.moFri9Am {
+  position: relative;
+  line-height: 24.03px;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  z-index: 1;
+}
+.frameContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 32.30000000000018px;
+}
+.mailIcon {
+  width: 20.2px;
+  height: 19.1px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.mailWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 1.900000000000091px 0 0;
+}
+.bworldstorero {
+  position: relative;
+  line-height: 24.03px;
+  white-space: nowrap;
+  z-index: 1;
+}
+.frameDiv {
+  width: 183.6px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.comparator,
+.connectionManagerParent,
+.helpContactsParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.comparator {
+  gap: 14.350000000000025px;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  color: var(--color-gray-500);
+}
+.connectionManagerParent,
+.helpContactsParent {
+  gap: 18.200000000000045px;
+}
+.connectionManagerParent {
+  flex-direction: row;
+  gap: 102.09999999999944px;
+  max-width: 100%;
+}
+.ifYouHave,
+.requestACall {
+  position: relative;
+  display: inline-block;
+}
+.ifYouHave {
+  width: 149.4px;
+  line-height: 18.03px;
+  z-index: 1;
+}
+.requestACall {
+  font-size: var(--body-text-size);
+  line-height: 25px;
+  font-weight: 500;
+  font-family: var(--body-text);
+  color: var(--white);
+  text-align: left;
+  min-width: 107px;
+}
+.ghoustButton,
+.ifYouHaveQuestionsYouCanParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.ghoustButton {
+  cursor: pointer;
+  border: 1px solid var(--white);
+  padding: var(--padding-xs) var(--padding-12xl);
+  background-color: transparent;
+  border-radius: var(--br-11xs);
+  flex-direction: row;
+  z-index: 1;
+}
+.ghoustButton:hover {
+  background-color: var(--color-gainsboro-300);
+  border: 1px solid var(--color-gainsboro-100);
+  box-sizing: border-box;
+}
+.ifYouHaveQuestionsYouCanParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-3xl);
+}
+.frequencyAnalyzer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 1.1999999999989086px 0 var(--padding-7xs);
+}
+.paipal1Icon {
+  width: 44.4px;
+  height: 26.7px;
+  position: relative;
+  border-radius: 4.01px;
+  object-fit: cover;
+  z-index: 1;
+}
+.meanCalculator {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 1.900000000000091px;
+}
+.mastercardLogo19791Icon {
+  align-self: stretch;
+  width: 56.5px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  min-height: 31px;
+  z-index: 1;
+}
+.visaCardLogo1Icon {
+  height: 26.7px;
+  width: 45.4px;
+  position: relative;
+  border-radius: var(--br-10xs);
+  object-fit: cover;
+  z-index: 1;
+}
+.summarizer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.aggregator,
+.aggregatorWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.aggregator {
+  align-self: stretch;
+  align-items: flex-end;
+  gap: 71.29999999999973px;
+}
+.aggregatorWrapper {
+  width: 178.3px;
+  align-items: flex-start;
+  padding: var(--padding-2xs-5) 0 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-sm);
+}
+.footerInner,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  width: 1468.4px;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.footerInner {
+  width: 1668.4px;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.frameChild {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--white);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.allCopyrightsAre {
+  width: 342.8px;
+  position: relative;
+  line-height: 24.03px;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 1;
+}
+.allCopyrightsAreReservedWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-192xl);
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.footer,
+.lineParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.lineParent {
+  width: 1474px;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+  gap: 14.200000000000273px;
+  max-width: 100%;
+  color: var(--color-gray-600);
+}
+.footer {
+  align-self: stretch;
+  background-color: var(--purple);
+  padding: var(--padding-81xl-5) 0 33.399999999999636px;
+  gap: 55.40000000000009px;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  text-align: left;
+  font-size: var(--body-text-size);
+  color: var(--white);
+  font-family: var(--body-text);
+}
+@media screen and (max-width: 1500px) {
+  .frameParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .connectionManagerParent {
+    flex-wrap: wrap;
+    gap: 102.1px 51px;
+  }
+}
+@media screen and (max-width: 825px) {
+  .connectionManagerParent {
+    gap: 102.1px 26px;
+  }
+  .allCopyrightsAreReservedWrapper {
+    padding-left: var(--padding-86xl);
+    box-sizing: border-box;
+  }
+  .footer {
+    gap: 28px 55.4px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .allCopyrightsAreReservedWrapper {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .footer {
+    padding-top: var(--padding-46xl);
+    padding-bottom: var(--padding-3xl);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,86 @@
+.h3 {
+  position: relative;
+  font-size: inherit;
+  line-height: 32.04px;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+  min-width: 63.5px;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.h3,
+.p,
+.p1 {
+  margin: 0;
+}
+.div {
+  height: 48px;
+  font-size: var(--body-text-size);
+  line-height: 24.03px;
+  color: var(--body-text);
+  display: inline-block;
+  z-index: 1;
+  margin-top: -0.76px;
+}
+.div,
+.div1,
+.vectorIcon {
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.div1 {
+  line-height: 26.04px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 84px;
+  z-index: 2;
+}
+.vectorIcon {
+  width: 24px;
+  height: 22px;
+  z-index: 1;
+}
+.group,
+.parent,
+.vectorWrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.vectorWrapper {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+}
+.group,
+.parent {
+  align-self: stretch;
+}
+.group {
+  flex-direction: row;
+  justify-content: space-between;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+  margin-top: -0.76px;
+  font-size: var(--h4-size);
+}
+.parent {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-8xs-5);
+  text-align: left;
+  font-size: var(--h41-size);
+  color: var(--black);
+  font-family: var(--body-text);
+}
+@media screen and (max-width: 450px) {
+  .h3 {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .div1 {
+    font-size: var(--body-text-size);
+    line-height: 21px;
+  }
+}

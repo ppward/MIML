@@ -1,0 +1,506 @@
+.div,
+.div1 {
+  position: relative;
+}
+.div {
+  line-height: 49.07px;
+  font-weight: 600;
+}
+.div1 {
+  letter-spacing: 0.1em;
+  line-height: 28.04px;
+  text-transform: uppercase;
+  display: inline-block;
+  min-width: 80px;
+  white-space: nowrap;
+}
+.sortingAlgo {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 12.800000000000182px 0 0;
+  font-size: var(--h3-cart-text-size);
+  color: var(--color-gray-400);
+}
+.matrixManipulation,
+.treeStructure {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.matrixManipulation {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.treeStructure {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 0 1.199999999999818px;
+  box-sizing: border-box;
+}
+.skipIcon {
+  height: 32.1px;
+  width: 1639.9px;
+  position: absolute;
+  margin: 0 !important;
+  right: -1285px;
+  bottom: 190.9px;
+  z-index: 1;
+}
+.image11Icon {
+  height: 414px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 2;
+}
+.processBuilder,
+.skipParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.skipParent {
+  align-self: stretch;
+  flex-direction: row;
+  position: relative;
+}
+.processBuilder {
+  width: 275px;
+  flex-direction: column;
+  gap: 24.40000000000009px;
+  min-width: 275px;
+}
+.image5Icon {
+  width: 269px;
+  flex: 1;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 2;
+}
+.image5Parent,
+.logRepository {
+  display: flex;
+  align-items: flex-start;
+}
+.image5Parent {
+  height: 549.5px;
+  width: 306.3px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 24.40000000000009px;
+  min-width: 306.3000000000002px;
+}
+.logRepository {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.buttonAddToCartChild,
+.frameChild {
+  width: 274.4px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  display: none;
+}
+.buttonAddToCartChild {
+  align-self: stretch;
+  background-color: var(--purple);
+}
+.frameChild {
+  height: 48.1px;
+}
+.div2 {
+  position: relative;
+  font-size: var(--body-text-size);
+  line-height: 24.03px;
+  font-weight: 500;
+  font-family: var(--body-text);
+  color: var(--white);
+  text-align: center;
+  display: inline-block;
+  min-width: 78px;
+  z-index: 2;
+}
+.frameItem,
+.vectorParent {
+  width: 274.4px;
+  border-radius: var(--br-11xs);
+  background-color: var(--purple);
+}
+.vectorParent {
+  cursor: pointer;
+  border: 0;
+  padding: 11.699999999999818px var(--padding-76xl) 11.400000000000093px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  white-space: nowrap;
+}
+.rectangleParent:hover,
+.vectorParent:hover {
+  background-color: var(--color-darkslateblue-100);
+}
+.frameItem {
+  height: 48.1px;
+  position: relative;
+  display: none;
+}
+.div3 {
+  position: relative;
+  font-size: var(--body-text-size);
+  line-height: 24.03px;
+  font-weight: 500;
+  font-family: var(--body-text);
+  color: var(--white);
+  text-align: left;
+  display: inline-block;
+  min-width: 78px;
+  z-index: 2;
+}
+.rectangleParent {
+  cursor: pointer;
+  border: 0;
+  padding: 11.699999999999818px var(--padding-xl) 11.400000000000093px;
+  background-color: var(--purple);
+  width: 274.4px;
+  border-radius: var(--br-11xs);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  box-sizing: border-box;
+  white-space: nowrap;
+  z-index: 1;
+}
+.buttonAddToCart,
+.decryptionMethod {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.buttonAddToCart {
+  width: 652.6px;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 0 0.20000000000027285px;
+  box-sizing: border-box;
+  gap: var(--gap-xl);
+}
+.decryptionMethod {
+  width: 683.9px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 23.800000000000185px;
+}
+.image12Icon {
+  width: 274px;
+  flex: 1;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 2;
+}
+.buttonAddToCartInner,
+.buttonAddToCartItem {
+  position: absolute;
+  top: 0.3px;
+  left: 0;
+  border-radius: var(--br-11xs);
+  background-color: var(--purple);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.buttonAddToCartInner {
+  top: 0;
+}
+.div4 {
+  position: absolute;
+  top: 12.7px;
+  left: 97.8px;
+  font-size: var(--body-text-size);
+  line-height: 24.03px;
+  font-weight: 500;
+  font-family: var(--body-text);
+  color: var(--white);
+  text-align: center;
+  display: inline-block;
+  min-width: 78px;
+  z-index: 2;
+}
+.buttonAddToCart1,
+.buttonAddToCart2 {
+  background-color: var(--purple);
+  border-radius: var(--br-11xs);
+}
+.buttonAddToCart2 {
+  position: absolute;
+  top: 0;
+  left: 0.2px;
+  width: 100%;
+  height: 100%;
+  white-space: nowrap;
+  z-index: 1;
+}
+.buttonAddToCart1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  width: 274.5px;
+  height: 48.3px;
+  position: relative;
+}
+.image12Parent {
+  height: 621.6px;
+  width: 306.3px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24.100000000000136px;
+}
+.image6Icon {
+  width: 275px;
+  flex: 1;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 2;
+}
+.div5,
+.h3,
+.image6Icon {
+  position: relative;
+}
+.h3 {
+  margin: 0;
+  align-self: stretch;
+  font-size: inherit;
+  line-height: 33px;
+  font-weight: 600;
+  font-family: inherit;
+}
+.div5 {
+  width: 133px;
+  font-size: var(--body-text-size);
+  line-height: 25px;
+  color: var(--body-text);
+  display: inline-block;
+}
+.parent {
+  width: 265px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-6xs);
+}
+.div6 {
+  position: relative;
+  line-height: 26.04px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 78px;
+}
+.antDesignheartOutlinedIcon {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.frameParent,
+.group {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.group {
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--h4-size);
+}
+.frameParent {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 14.199999999999818px;
+}
+.div7 {
+  position: absolute;
+  top: 12px;
+  left: 98px;
+  font-size: var(--body-text-size);
+  line-height: 24.03px;
+  font-weight: 500;
+  font-family: var(--body-text);
+  color: var(--white);
+  text-align: center;
+  display: inline-block;
+  min-width: 78px;
+  z-index: 1;
+}
+.buttonAddToCartParent {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  height: 48.1px;
+  flex: 1;
+  position: relative;
+}
+.frameWrapper {
+  width: 276.4px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-12xs);
+  box-sizing: border-box;
+}
+.image6Parent {
+  align-self: stretch;
+  flex: 1;
+  flex-direction: column;
+  gap: 23.75px;
+}
+.encryptionMethod,
+.encryptionMethodInner,
+.image6Parent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.encryptionMethodInner {
+  height: 623.5px;
+  width: 306.8px;
+  flex-direction: column;
+  padding: 2.400000000000091px 0 0;
+  box-sizing: border-box;
+}
+.encryptionMethod {
+  flex-direction: row;
+  gap: 72.89999999999986px;
+  max-width: 100%;
+}
+.scrollIcon {
+  height: 12px;
+  width: 132.2px;
+  position: relative;
+}
+.scrollWrapper,
+.tagCloud {
+  display: flex;
+  max-width: 100%;
+}
+.scrollWrapper {
+  width: 1429.6px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.tagCloud {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 41.20000000000027px;
+  font-size: var(--h41-size);
+}
+.dictionary,
+.dictionaryWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.dictionary {
+  width: 1459px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 47.40000000000009px;
+}
+.dictionaryWrapper {
+  width: 1707px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 82.29999999999973px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-19xl-1);
+  color: var(--black);
+  font-family: var(--body-text);
+}
+@media screen and (max-width: 1425px) {
+  .encryptionMethod {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .dictionaryWrapper {
+    padding-bottom: var(--padding-34xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 825px) {
+  .div {
+    font-size: var(--font-size-11xl);
+    line-height: 39px;
+  }
+  .image5Parent,
+  .processBuilder {
+    flex: 1;
+  }
+  .buttonAddToCart,
+  .logRepository {
+    flex-wrap: wrap;
+  }
+  .encryptionMethod {
+    gap: 72.9px 36px;
+  }
+  .tagCloud {
+    gap: 21px 41.2px;
+  }
+  .dictionary {
+    gap: 24px 47.4px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .div {
+    font-size: var(--font-size-4xl);
+    line-height: 29px;
+  }
+  .matrixManipulation {
+    flex-wrap: wrap;
+  }
+  .vectorParent {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .h3 {
+    font-size: var(--font-size-lgi);
+    line-height: 26px;
+  }
+  .div6 {
+    font-size: var(--body-text-size);
+    line-height: 21px;
+  }
+  .encryptionMethod {
+    gap: 72.9px 18px;
+  }
+  .dictionaryWrapper {
+    padding-bottom: var(--padding-15xl);
+    box-sizing: border-box;
+  }
+}

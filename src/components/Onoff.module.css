@@ -1,0 +1,77 @@
+.onoffChild {
+  height: 25px;
+  width: 54px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 12.5px);
+  left: calc(50% - 27px);
+  border-radius: var(--br-6xl-5);
+  background-color: var(--color-thistle);
+}
+.on,
+.onoffItem {
+  position: relative;
+  z-index: 1;
+}
+.onoffItem {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  background-color: var(--white);
+  display: none;
+}
+.on {
+  flex: 1;
+  line-height: 16px;
+  font-weight: 500;
+  flex-shrink: 0;
+}
+.onoffInner {
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  margin: 0 !important;
+  top: calc(50% - 12.5px);
+  right: 1px;
+  border-radius: 50%;
+  background-color: var(--white);
+  z-index: 1;
+}
+.off {
+  align-self: stretch;
+  height: 16px;
+  position: relative;
+  line-height: 24.03px;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.offWrapper,
+.onoff {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.offWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-12xs) 0 0;
+  color: var(--color-black);
+}
+.onoff {
+  width: 56px;
+  border-radius: var(--br-6xl-5);
+  background-color: var(--purple);
+  flex-direction: row;
+  padding: var(--padding-12xs) var(--padding-7xs) var(--padding-4xs);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-7xs);
+  cursor: pointer;
+  z-index: 2;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--white);
+  font-family: var(--body-text);
+}

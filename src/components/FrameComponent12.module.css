@@ -1,0 +1,730 @@
+.image4Child {
+  height: 148px;
+  width: 148px;
+  position: relative;
+  border-radius: var(--br-11xs);
+  background-color: var(--white);
+  border: 0.5px solid var(--color-plum-100);
+  box-sizing: border-box;
+  display: none;
+}
+.t3syzzsl1Icon {
+  height: 116px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+}
+.image3Child,
+.image4 {
+  border-radius: var(--br-11xs);
+  background-color: var(--white);
+  border: 0.5px solid var(--color-plum-100);
+}
+.image4 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-25xl) var(--padding-base)
+    var(--padding-26xl);
+}
+.image3Child {
+  height: 148px;
+  width: 148px;
+  position: relative;
+  box-sizing: border-box;
+  display: none;
+}
+.ayp0ys1yl1Icon {
+  height: 116px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+}
+.image2Child,
+.image3 {
+  border-radius: var(--br-11xs);
+  background-color: var(--white);
+  border: 0.5px solid var(--color-plum-100);
+}
+.image3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-24xl);
+}
+.image2Child {
+  height: 148px;
+  width: 148px;
+  position: relative;
+  box-sizing: border-box;
+  display: none;
+}
+.dk6xyf9al1Icon {
+  height: 116px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+}
+.image2 {
+  align-self: stretch;
+  border-radius: var(--br-11xs);
+  background-color: var(--white);
+  border: 0.5px solid var(--color-plum-100);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base) var(--padding-16xl);
+}
+.image1Child,
+.irdr7gol1Icon {
+  position: relative;
+  border-radius: var(--br-11xs);
+}
+.image1Child {
+  height: 148px;
+  width: 148px;
+  background-color: var(--white);
+  border: 0.5px solid var(--color-plum-100);
+  box-sizing: border-box;
+  display: none;
+}
+.irdr7gol1Icon {
+  height: 116px;
+  flex: 1;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 1;
+}
+.image1,
+.imagesToSkip,
+.imagesToSkipWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.image1 {
+  align-self: stretch;
+  border-radius: var(--br-11xs);
+  background-color: var(--white);
+  border: 0.5px solid var(--color-plum-100);
+  flex-direction: row;
+  padding: var(--padding-base) var(--padding-16xl) var(--padding-base)
+    var(--padding-17xl);
+}
+.imagesToSkip,
+.imagesToSkipWrapper {
+  flex-direction: column;
+}
+.imagesToSkip {
+  align-self: stretch;
+  gap: 20.333333333333332px;
+}
+.imagesToSkipWrapper {
+  width: 148px;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+}
+.frameChild,
+.icon {
+  position: relative;
+  display: none;
+}
+.icon {
+  width: 430px;
+  border-radius: var(--br-10xs);
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+  z-index: 1;
+}
+.frameChild {
+  height: 24px;
+  width: 144px;
+  border-radius: var(--br-xl);
+  background-color: var(--white);
+}
+.bibookIcon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.rectangleParent {
+  width: 144px;
+  border-radius: var(--br-xl);
+  background-color: var(--white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) var(--padding-5xs);
+  box-sizing: border-box;
+  z-index: 1;
+}
+.flipsAFew {
+  flex: 1;
+  position: relative;
+  line-height: 16.4px;
+  z-index: 2;
+}
+.accordion,
+.modalDialog {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.modalDialog {
+  width: 234.1px;
+  flex-direction: row;
+  padding: 0 var(--padding-40xl) 0 var(--padding-40xl-5);
+  margin-top: -18.1px;
+}
+.accordion {
+  flex: 1;
+  border-radius: var(--br-10xs);
+  flex-direction: column;
+  padding: var(--padding-5xs) var(--padding-13xl);
+  background-image: url(/public/9781982185824-2@2x.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  min-width: 279px;
+  min-height: 649px;
+  max-width: 100%;
+}
+.skipIcon {
+  align-self: stretch;
+  height: 32px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.skipWrapper {
+  width: 104px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+}
+.accordionParent,
+.frameWrapper {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.accordionParent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-mid);
+}
+.frameWrapper {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+  min-width: 358px;
+}
+.h1 {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  line-height: 60px;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.wrapper {
+  width: 167px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div {
+  position: relative;
+  font-size: var(--h3-cart-text-size);
+  line-height: 27px;
+  color: var(--color-dimgray-100);
+}
+.frameDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bistarFillIcon,
+.bistarFillIcon1,
+.bistarFillIcon2,
+.bistarFillIcon3,
+.bistarHalfIcon {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 20px;
+}
+.bistarFillParent,
+.frameWrapper1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bistarFillParent {
+  flex-direction: row;
+  gap: var(--gap-5xs);
+}
+.frameWrapper1 {
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+}
+.div1 {
+  position: relative;
+  line-height: 25px;
+  display: inline-block;
+  min-width: 25px;
+}
+.frameContainer,
+.frameParent1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameParent1 {
+  flex-direction: row;
+  gap: var(--gap-xl);
+  font-size: var(--body-text-size);
+  color: var(--color-gray-300);
+}
+.frameContainer {
+  flex-direction: column;
+  gap: var(--gap-base);
+}
+.div2,
+.div3 {
+  display: inline-block;
+}
+.div2 {
+  position: relative;
+  line-height: 36px;
+  font-weight: 600;
+  min-width: 107px;
+}
+.div3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 24.03px;
+  width: 100%;
+  height: 100%;
+}
+.vectorIcon,
+.vectorIcon1 {
+  position: absolute;
+  top: 5.2px;
+  left: 6px;
+  width: 8px;
+  height: 6.9px;
+  z-index: 1;
+}
+.vectorIcon1 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+}
+.vectorParent {
+  position: absolute;
+  top: 76.2px;
+  left: 49px;
+  width: 20px;
+  height: 17.2px;
+}
+.carousel {
+  align-self: stretch;
+  height: 145px;
+  position: relative;
+}
+.akarIconscircleMinus {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.akarIconscircleMinusWrapper {
+  width: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 17.40000000000009px 0 0;
+  box-sizing: border-box;
+}
+.div4 {
+  position: relative;
+  line-height: 24px;
+  display: inline-block;
+  min-width: 8px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 17.40000000000009px var(--padding-7xs) 0 0;
+}
+.icon1 {
+  height: 17.6px;
+  width: 19.2px;
+  position: relative;
+  z-index: 1;
+}
+.frameParent4 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.addToCart1 {
+  position: relative;
+  font-size: var(--body-text-size);
+  line-height: 24px;
+  font-weight: 500;
+  font-family: var(--body-text);
+  color: var(--white);
+  text-align: center;
+  white-space: nowrap;
+}
+.addToCart {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-30xl);
+  background-color: var(--color-plum-100);
+  flex: 1;
+  flex-direction: row;
+  white-space: nowrap;
+}
+.addToCart:hover {
+  background-color: var(--color-steelblue-100);
+}
+.addToCart,
+.addToCartWrapper,
+.frameParent3 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.addToCartWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-11xs);
+}
+.frameParent3 {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-22xl);
+  min-width: 160px;
+}
+.dataProcessorIcon {
+  height: 12.1px;
+  width: 15px;
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.waterfallChart {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-28xl);
+}
+.addToCart2 {
+  position: relative;
+  font-size: var(--body-text-size);
+  line-height: 24px;
+  font-weight: 500;
+  font-family: var(--body-text);
+  color: var(--color-plum-100);
+  text-align: left;
+  display: inline-block;
+  min-width: 108px;
+  white-space: nowrap;
+}
+.favorite,
+.waterfallChartParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.favorite {
+  cursor: pointer;
+  border: 1px solid var(--color-plum-100);
+  padding: var(--padding-xs) var(--padding-48xl);
+  background-color: transparent;
+  align-self: stretch;
+  flex-direction: row;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.favorite:hover {
+  background-color: var(--color-steelblue-300);
+  border: 1px solid var(--color-steelblue-100);
+  box-sizing: border-box;
+}
+.waterfallChartParent {
+  flex: 1;
+  flex-direction: column;
+  gap: 67.80000000000018px;
+  min-width: 160px;
+}
+.carouselParent,
+.frameParent2,
+.treeMap {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.frameParent2 {
+  flex-direction: row;
+  align-items: flex-end;
+  gap: var(--gap-44xl);
+  margin-top: -2.4px;
+}
+.carouselParent,
+.treeMap {
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: var(--body-text-size);
+  color: var(--color-dimgray-100);
+}
+.treeMap {
+  gap: var(--gap-6xs);
+  font-size: var(--h41-size);
+  color: var(--color-gray-300);
+}
+.logicTree {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid var(--color-plum-300);
+  box-sizing: border-box;
+}
+.div5,
+.div6,
+.div7 {
+  position: relative;
+  line-height: 24.03px;
+  display: inline-block;
+}
+.div5 {
+  min-width: 54px;
+  white-space: nowrap;
+}
+.div6,
+.div7 {
+  min-width: 53px;
+}
+.div7 {
+  min-width: 41px;
+}
+.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+}
+.div8,
+.div9,
+.march {
+  position: relative;
+  line-height: 24.03px;
+  display: inline-block;
+  min-width: 59px;
+}
+.div9,
+.march {
+  line-height: 25px;
+  min-width: 86px;
+}
+.div9 {
+  line-height: 24.03px;
+  min-width: 81px;
+}
+.alignmentProcessor,
+.comparator {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.comparator {
+  padding: 0 var(--padding-41xl) 0 0;
+  gap: var(--gap-3xl);
+  color: var(--color-darkslategray-200);
+}
+.ai,
+.div10,
+.div11 {
+  position: relative;
+  line-height: 24.03px;
+  display: inline-block;
+  min-width: 37px;
+}
+.ai {
+  min-width: 54px;
+  white-space: nowrap;
+}
+.group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+}
+.div12 {
+  line-height: 24.03px;
+  min-width: 32px;
+}
+.div12,
+.div13,
+.x {
+  position: relative;
+  display: inline-block;
+}
+.div13 {
+  line-height: 24.03px;
+  min-width: 74px;
+  white-space: nowrap;
+}
+.x {
+  line-height: 25px;
+  min-width: 9px;
+}
+.inputCollector,
+.parent1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+  color: var(--color-darkslategray-200);
+}
+.inputCollector {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  font-size: var(--body-text-size);
+  color: var(--color-plum-400);
+}
+.frameGroup,
+.frameParent,
+.mainInner {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameGroup {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 35.333333333333336px;
+  min-width: 359px;
+  font-size: var(--h1-size);
+  color: var(--color-darkslategray-200);
+}
+.frameParent,
+.mainInner {
+  flex-direction: row;
+}
+.frameParent {
+  width: 1336px;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: var(--gap-23xl);
+}
+.mainInner {
+  width: 1588px;
+  justify-content: center;
+  padding: 0 var(--padding-xl) var(--padding-61xl);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-darkslategray-100);
+  font-family: var(--body-text);
+}
+@media screen and (max-width: 825px) {
+  .accordionParent {
+    flex-wrap: wrap;
+  }
+  .h1 {
+    font-size: var(--h2-size);
+    line-height: 48px;
+  }
+  .frameParent2 {
+    flex-wrap: wrap;
+    gap: 63px 31px;
+  }
+  .frameGroup {
+    gap: 18px 35.3px;
+  }
+  .frameParent {
+    gap: var(--gap-2xl);
+  }
+  .mainInner {
+    padding-bottom: var(--padding-33xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .frameWrapper {
+    min-width: 100%;
+  }
+  .h1 {
+    font-size: var(--font-size-10xl);
+    line-height: 36px;
+  }
+  .div2 {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+  .frameParent2 {
+    gap: 63px 16px;
+  }
+  .inputCollector {
+    flex-wrap: wrap;
+  }
+  .frameGroup {
+    min-width: 100%;
+  }
+}
