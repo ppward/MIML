@@ -1,12 +1,13 @@
 .parentLinkWrapper {
+    
     align-self: stretch;
-    flex-direction: row;
     padding: 0 var(--padding-12xl) 7.399999999999864px;
     box-sizing: border-box;
     text-align: left;
     font-size: var(--font-size-sm);
     color: var(--nav-bar-text);
     font-family: var(--body-text);
+    flex-direction: row;
 }
 .parentLinkChild{
     align-self: stretch;    
@@ -15,8 +16,9 @@
     max-width: 100%;
     max-height: 10%;
 }
-.parentLink{
-    justify-items: center;
-    height: auto;
-    min-height: 73px;
+.parentLink {
+    display: flex;
+    flex-direction: row; /* 가로 방향으로 자식 요소들을 나열 */
+    justify-content: space-around; /* 자식 요소들 사이의 공간을 균등하게 분배 */
+    align-items: center; /* 자식 요소들을 세로 축에서 중앙에 정렬 */
 }
