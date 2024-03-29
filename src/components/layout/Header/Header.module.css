@@ -1,0 +1,22 @@
+.parentLinkWrapper {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 var(--padding-12xl) 7.399999999999864px;
+    box-sizing: border-box;
+    text-align: left;
+    font-size: var(--font-size-sm);
+    color: var(--nav-bar-text);
+    font-family: var(--body-text);
+}
+.parentLinkChild{
+    align-self: stretch;    
+    position:relative;
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 10%;
+}
+.parentLink{
+    justify-items: center;
+    height: auto;
+    min-height: 73px;
+}
