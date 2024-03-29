@@ -1,0 +1,11 @@
+.categoryBody{
+    
+    display: flex;
+    width: 30%;
+    flex-direction: row;
+    justify-content: space-around;  
+}
+.categoryItems{
+    margin-left: 20px;
+    margin-right: 20px;
+}

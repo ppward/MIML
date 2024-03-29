@@ -1,6 +1,9 @@
     import { useCallback } from "react";
     import {useNavigate} from "react-router-dom";
     import styles from './Header.module.css'
+    import CategoryHeader from './Category/CategoryHeader.js'
+    import icons from '../../../icons.js'
+
     const Header=()=>{
         const navigate = useNavigate();// 네비게이션 기능 함수 정의 
         
@@ -31,24 +34,13 @@
                     */}
                     
                 </div> 
-                <div
-                //이미지 추가할 부분 묵마크, 위시리스트, 마이
+                <CategoryHeader/>
+                <div className={styles.iconItem}
+                //이미지 아이콘 부분
                 >
-                    <div 
-                    //북마크
-                    >
-                    북마크 이미지
-                    </div>
-                    <div
-                    //위시리스트
-                    >
-                        위시리스트 이미지
-                    </div>
-                    <div
-                    //마이
-                    >
-                        마이 이미지
-                    </div>
+                    <img src={icons.bookmark} alt="bookmark" className={styles.icon}/>
+                    <img src={icons.like} alt="like" className={styles.icon}/>
+                    <img src={icons.account} alt="account" className={styles.icon}/>
                 </div>
             </div>
         </section> 
