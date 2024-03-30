@@ -1,13 +1,18 @@
 .parentLinkWrapper {
     
     align-self: stretch;
-    padding: 0 var(--padding-12xl) 7.399999999999864px;
+    padding: 0 var(--padding-12xl) 7.4px;
     box-sizing: border-box;
     text-align: left;
     font-size: var(--font-size-sm);
     color: var(--nav-bar-text);
     font-family: var(--body-text);
     flex-direction: row;
+    height: max-content;
+    margin-top: 15px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #937DC2;
 }
 .parentLinkChild{
     align-self: stretch;    
@@ -21,4 +26,41 @@
     flex-direction: row; /* 가로 방향으로 자식 요소들을 나열 */
     justify-content: space-around; /* 자식 요소들 사이의 공간을 균등하게 분배 */
     align-items: center; /* 자식 요소들을 세로 축에서 중앙에 정렬 */
+    overflow: hidden;
+    max-width: 100%;
+    max-height: 10%;
+    
+}
+.iconItem{
+    width: 200px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.icon{
+    width: 30px;
+    height: 30px;
+}
+
+.searchBox { /* 검색창 */ 
+    width: 400px; 
+    height: 30px; 
+    
+}
+
+.mainLogo { /* 메인 로고 */
+    width: 120px; 
+    display: grid;
+  align-items: center;
+    background-color: #937DC2;
+ 
+}
+
+.weLoveBooks {
+    float: right;
+    
+    background-color: #c27d7d;
 }
